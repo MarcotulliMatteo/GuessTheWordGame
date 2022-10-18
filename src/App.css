@@ -1,0 +1,51 @@
+.app {
+  text-align: center;
+}
+
+.header {
+  box-shadow: 1px 2px 9px gray;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+}
+
+.reset:hover {
+  color: blue;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.line {
+  display: flex;
+  gap: 5px;
+}
+
+.tile {
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.close {
+  background-color: yellow;
+}
+
+.incorrect {
+  background-color: gray;
+}
